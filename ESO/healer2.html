@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESO gyógyító</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+<style>
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+   border: 1px solid black;
+}
+td {
+	padding: 1px;
+}
+.title{
+	color:blue;
+	font-size: x-large;
+	padding: 20px 0 3px 0;
+}
+tr.group td {
+	background: green;
+	color:yellow;
+	font-size: large;
+	text-align:left;
+	font-weight: bold;
+}
+tr.head td {
+	background: #DfffDf;
+	font-style: italic;
+	text-align: center;
+}
+td.button {
+	font-weight: bold;
+	white-space:nowrap;
+}
+td.skill {
+	font-weight: bold;
+}
+</style>
+<script async src="https://www.elderscrollsbote.de/esodb/tooltips.js"></script>
+</head>
+<body lang="HU">
+<h2 style="text-align:center">Gyógyító</h2>
+
+<b></b>Lighting staff</b>(Magnus Gift)/ <b>Restoration staff</b>(Magnus Gift)</br>
+Mundus: <b>Atronach</b> vagy <b>Apprentice</b> és <b>Ritual.</b>
+
+<div class="title">Sebzés</div>
+<table>
+	<tr class="head"><td>Gomb</td><td>Szint</td><td>Képesség</td><td>Ős</td><td>Erőforrás</td><td>Idő</td><td>Táv</td></tr>
+	<tr class="group"><td colspan=7>Aedric Spear</td></tr>
+	<tr><td class="button">Y</td><td>30</td><td class="skill">Luminous Shards</td><td>Spear Shards</td><td>3240M</td><td>6mp</td><td>8 méter</td></tr>
+	<tr><td colspan="2"></td><td colspan="5">AOE 8mp. A csapattagoknad ad 3960 mágiát vagy staminát (aminek több a maxa). A DPS vagy a tank mellé kell tenni, hogy aktiválni tudja (Y+B).</td></tr>
+
+	<tr class="group"><td colspan=7>Destruction Staff</td></tr>
+	<tr><td class="button">X</td><td>20</td><td class="skill">Elemental Drain</td><td>Weakness to Elements</td><td></td><td>24mp</td><td></td></tr>
+	<tr><td colspan="2"></td><td colspan="5">Spell ellenálás -5280 k.b. 25mp. Ellop 300 magikát/mp.  Nincs költség, szóval nyomjad!</td></tr>
+	<tr><td class="button">RB</td><td>4</td><td class="skill">Elemental Blockade</td><td>Wall of Elements</td><td>3150M</td><td>8mp</td><td>előre</td></tr>
+	<tr><td colspan="2"></td><td colspan="5">Nyomd el 8mp-ként. Megzavar, fellök, ... Staff: Lightning</td></tr>
+
+	<tr class="group"><td colspan=7>Restoring Light</td></tr>
+	<tr><td class="button">LB</td><td>30</td><td class="skill">Extended Ritual</td><td>Cleansing Ritual</td><td>3705M</td><td>24mp</td><td>12 méter</td></tr>
+	<tr><td colspan="2"></td><td colspan="5">(HoT) +8% gyógyítás 24mp. 4 negatív effekt eltávolítása. Csapattagok aktiválhatják a tisztító hatást (effekt eltávolítás, gyógyítás).  Mindig működjön.</td></tr>
+	<tr><td class="button">B</td><td>42</td><td class="skill">Channeled Focus</td><td>Rune Focus</td><td>1059M</td><td></td><td></td></tr>
+	<tr><td colspan="2"></td><td colspan="5">8 mp pajzs.5280 sebzés és spell ellenálás 23mp-ig. K.b. 480 magikát generál!</td></tr>
+
+	<tr class="group"><td colspan=7>Dawn's Wrath</td></tr>
+	<tr><td class="button">LB-RB</td><td>12</td><td class="skill">Solar Prison</td><td>Nova</td><td></td><td></td><td></td></tr>
+	<tr><td colspan="2"></td><td colspan="5">AoD+AoH</td></tr>
+</table>
+
+<div class="title">Gyógyítás</div>
+<table>
+	<tr class="head"><td>Gomb</td><td>Szint</td><td>Képesség</td><td>Ős</td><td>Erőforrás</td><td>Idő</td><td>Táv</td></tr>
+	<tr class="group"><td colspan=7>Restoring Light</td></tr>
+	<tr><td class="button">B</td><td>30</td><td class="skill">Breath of Life</td><td>Rushed Ceremony</td><td>4499M</td><td></td><td>28 méter</td></tr>
+	<tr><td colspan="2"></td><td colspan="5">A legjobb heal. Előtted 180 fokra a leggyengébbet gyógyitja leginkább. 28 méterre a többit is gyógyitja fele erővel. Ritkán használd, mert sokba kerül.</td></tr>
+	
+	<tr class="group"><td colspan=7>Restoration Staff</td></tr>
+	<tr><td class="button">Y</td><td>4</td><td class="skill">Mutagen</td><td>Regeneration</td><td>2160M</td><td>20mp</td><td>28 méter</td></tr>
+	<tr><td colspan="2"></td><td colspan="5">(HoT) 2 tag gyógyitás 20 mp-ig. 2x kell elnyomni, hogy mindenki kapjon.  1 effekt eltávolítása.</td></tr>
+	<tr><td class="button">RB</td><td>14</td><td class="skill">Combat Prayer</td><td>Blessing of Protection</td><td>3780M</td><td>8mp</td><td>előre 20 méter</td></tr>
+	<tr><td colspan="2"></td><td colspan="5">K.b. a fele a Breath of Life-nak, csak sokkal olcsóbb. Spell, fizikai ellenálás: +1320. Sebzés +8%. Nyomd el 8mp-nként.</td></tr>
+	<tr><td class="button">LB</td><td>2</td><td class="skill">Healing Springs</td><td>Grand Healing</td><td>3510M</td><td>3mp</td><td>28 m/8 m kör</td></tr>
+	<tr><td colspan="2"></td><td colspan="5">Alap gyógyítás, és mágia visszaadás</td></tr>
+	
+	<tr class="group"><td colspan=7>Mage Guild</td></tr>
+	<tr><td class="button">X</td><td>2</td><td class="skill">Inner Light</td><td>Mage Light</td><td></td><td></td><td></td></tr>
+	<tr><td colspan="2"></td><td colspan="5">Passzív. Nőveli a magikát, de nagyon.</td></tr>
+
+	<tr class="group"><td colspan=7>Dawn's Wrath</td></tr>
+	<tr><td class="button">LB-RB</td><td>12</td><td class="skill">Solar Prison</td><td>Nova</td><td></td><td></td><td></td></tr>
+	<tr><td colspan="2"></td><td colspan="5">AoD+AoH</td></tr>
+</table>
+
+<div class="title">Rotáció</div>
+<ul>
+	<li><b>Destruction Staff</b>(időnként, ez legyen rajtad a harcok között)
+		<ol>
+			<li><b>X</b> (Elemental Drain) - csak ha van idő</li>
+			<li><b>Y</b> (Luminous Shards)</li>
+			<li><b>RB</b> (Elemental Blockade)</li>
+			<li><b>LB</b> (Purifying Light) – minden főnökre</li>
+		</ol>
+	</li>
+	<li><b>Restoration Staff</b>(harc közben)
+		<ol>
+			<li><b>X</b> (Extended Ritual)  - közel kell menni, veszélyes</li>
+			<li><b>Y</b> (Mutagen) – 2 szer egymás után
+			<li><b>RB</b> (Combat Prayer)
+			<li><b>LB</b> (Channeled Focus) – ritkán
+		</ol>
+	</li>
+</ul>
+
+<div class="title">Jellemzők</div>
+<ul>
+	<li><b>Ruha</b>
+		<ul>
+			<li><b>Infused</b> Megnöveli a ruha babona effektjeit</li>
+			<li><b>Divine</b> A Mundus Stone hatását növeli</li>
+		</ul>
+	</li>
+	<li><b>Ékszer</b>
+		<ul>
+			<li><b>Arcane</b> Maximum mágia növelése</li>
+		</ul>
+	</li>
+	<li><b>Fegyver</b>
+		<ul>
+			<li><b>Infused</b> -30% cooldown, +30% babona</li>
+			<li><b>Powered</b> Megnöveli a gyógyítást</li>
+			<li><b>Defending</b> Fizikai és varázslat ellenálás növelése</li>
+		</ul>
+	</li>
+</ul>
+
+<div class="title">Bajnok pontok</div>
+	<ul>
+		<li><b>The Warrior</b>
+			<ul>
+				<li><i>The Steed</i>
+					<ul>
+						<li>Ironclad: <b>61</b></li>
+					</ul>
+				</li>
+				<li><i>The Lady</i>
+					<ul>
+						<li>Hardy: <b>49</b></li>
+						<li>Thick Skinned: <b>61</b></li>
+						<li>Elemental Defender: <b>41</b></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		
+	</ul>
+o	The Lord
+	Quick Recovery: 7
+•	The Tief
+o	The Tower
+	Warlord: 10
+	Sprinter: 10
+o	The Lover
+	Tenacity: 100
+	Arcanist: 100
+•	The Mage
+o	The Apprentice
+	Elfborn: 31
+	Blessed: 17
+	Spell Erosion: 30
+	Elemental Expert: 37
+o	The Atronach
+	Master-at-Arms: 40
+o	The Ritual
+	Thaumaturge: 70
+
+</body>
